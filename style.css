@@ -1,0 +1,111 @@
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.header{
+  display : flex;
+  flex-flow: row wrap;
+  align-items: center; 
+  background: white;  
+  justify-content: space-between;
+
+}
+#nav{
+  display : flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  text-decoration: none;
+}
+
+/*section 1*/
+.section1{
+  padding:15px;
+  background:rgb(218, 95, 39);
+  text-align: center;
+}
+/* footer*/
+.footer{
+  display: flex;
+  flex-flow: row wrap;
+  background:black;
+  color: white;
+  justify-content: space-around;
+  padding: 0% 100px;
+}
+/*section2*/
+.section2{
+  display: flex;
+  flex-flow: row wrap;
+  -ms-flex-align: center;
+  justify-content: center;
+
+}
+.sub1{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 0 4px;
+  max-width: 25%;
+  align-items: flex-start;
+  align-content:flex-start;
+}
+img{
+  width:300px;
+  height: 200px;
+  
+}
+
+@media (max-width: 800px) {
+  .sub1 {
+      flex: 50%;
+      max-width: 50%;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .sub1 {
+      flex: 100%;
+      max-width: 100%;
+  }
+}
+/*section3*/
+.section3{
+  color: gray;
+  font-size:12px;
+  padding: 0 100px;
+
+}
+/*Section 4*/
+.section4{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 0 100px;
+  max-width: 25%;
+  -ms-flex-align: center;
+  justify-content: center;
+}
+
+.section4{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 0 4px;
+  max-width: 25%;
+  align-items: flex-start;
+  align-content:flex-start;
+  font-size: 15px;
+}
+.supersection4{
+  display: flex;
+  flex-flow: row wrap;
+  -ms-flex-align: center;
+  justify-content: center;
+
+}
